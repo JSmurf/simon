@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="headings">
+<h1>Simon Game</h1>
+<h5>Click on "Power" then "Start Game" to begin!</h5>
+</div>
+
+<div class="col-xs-12 buttons">
+<button id="power" class="btn btn-secondary">Power</button>
+<button id="strict" class="btn btn-secondary">Strict</button>
+<button id="start" class="btn btn-primary">Start Game</button>
+</div>
+<div id="countDisp"></div>
+<div class="game col-xs-12">
+<div class="row">
+<div id="green"></div>
+<div id="red"></div>
+</div>
+
+<div class="row">
+<div id="yellow"></div>
+<div id="blue"></div>
+</div>
+</div>
+  
+  <div class="col-xs-12 buttons">
+  <button id="reset" class="btn btn-info">Reset</button>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
